@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.martyna.mapa.MainActivity">
+
+    <TextView
+        android:layout_centerHorizontal="true"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="Moja mapa"
+        android:layout_above="@+id/map_button"
+        android:layout_marginBottom="36dp"
+        android:textSize="20dp"
+        android:textColor="#3F51B5"/>
+
+    <Button
+        android:id="@+id/map_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mapa"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:minWidth="150dp"
+        android:background="#3F51B5"
+        android:textColor="#FFFFFF"
+        android:onClick="mapActivity"/>
+
+    <Button
+        android:id="@+id/add_places_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dodaj miejsce"
+        android:layout_below="@id/map_button"
+        android:layout_marginTop="36dp"
+        android:layout_centerHorizontal="true"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:minWidth="150dp"
+        android:background="#3F51B5"
+        android:textColor="#FFFFFF"
+        android:onClick="addPlaceActivity"/>
+</RelativeLayout>
