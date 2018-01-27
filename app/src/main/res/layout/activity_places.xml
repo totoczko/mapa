@@ -78,7 +78,7 @@
         android:layout_marginTop="154dp"
         android:layout_below="@+id/textView2"
         android:layout_alignRight="@id/addNewRange"
-        android:text="km" />
+        android:text="m" />
 
     <Button
         android:id="@+id/saveNewPlace"

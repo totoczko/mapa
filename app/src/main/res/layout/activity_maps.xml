@@ -1,3 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
 <fragment xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:map="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
@@ -6,3 +14,16 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.example.martyna.mapa.MapsActivity" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/add_my_location"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="24dp"
+        android:src="@drawable/ic_add_location_black_24dp"
+        app:backgroundTint="#3F51B5"
+        android:tint="#FFFFFF"
+        android:onClick="addMyLocation"/>
+
+</android.support.design.widget.CoordinatorLayout>
